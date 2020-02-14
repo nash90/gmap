@@ -1,0 +1,22 @@
+{
+  "formatted_address": "665 E Foothill Blvd J, Claremont, CA 91711, United States",
+  "geometry": {"location": {"lat": 34.1076505, "lng": -117.7040267},
+   "viewport": {"northeast": {"lat": 34.10889982989272,
+     "lng": -117.7026778201073},
+    "southwest": {"lat": 34.10620017010728, "lng": -117.7053774798927}}},
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+  "id": "0877e1ad51fe1683de585ed9a4bc969ac0bb15dc",
+  "name": "Blue Fin Sushi & Teriyaki",
+  "opening_hours": {"open_now": True},
+  "photos": [{"height": 3096,
+    "html_attributions": ["<a href='https://maps.google.com/maps/contrib/116092170592641618478/photos'>Ron D&#39;Alessandro</a>"],
+    "photo_reference": "CmRaAAAA7fn8tT7rjXH8PtfwfJJNynQVoeKr6BFW6-ZyK2YL_C7y1fIpjees9HzqYdpHpHjk6Lg7u76CPvdC4xDp6djjTCJ1pLRTgkqPLOXxaRjTpjHZD9Ws3hGzBJrDBO49sQdREhDOWW5BZnDCr7IZcuWSUAjrGhQ4FAj9KFplHbxnrQXBRh1Chgr4dQ",
+    "width": 4128}],
+  "place_id": "ChIJMZrp6boxw4ARYkba5dvFlEk",
+  "plus_code": {"compound_code": "475W+39 Claremont, California",
+   "global_code": "8564475W+39"},
+  "rating": 4.6,
+  "reference": "ChIJMZrp6boxw4ARYkba5dvFlEk",
+  "types": ["restaurant", "food", "point_of_interest", "establishment"],
+  "user_ratings_total": 95
+}

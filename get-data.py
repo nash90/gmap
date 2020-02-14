@@ -85,6 +85,11 @@ def get_places_for_location(q,location,radius, city_name = "none"):
     data.append(obj)
 
 
+def get_restaurant_for_bulk():
+  for key, value in cities_cords.items():
+    get_places_for_location(q, value, radius, key)
+    #if key == "Avocado Heights":
+      #break
 
 def save_csv():
   df = pd.DataFrame(data)
@@ -92,13 +97,10 @@ def save_csv():
   df.to_csv("data.csv")
 
 def run_script():
-  #get_places_for_location(q,location,radius)
+  get_places_for_location(q,location,radius)
 
-  for key, value in cities_cords.items():
-    get_places_for_location(q, value, radius, key)
-    #if key == "Avocado Heights":
-      #break
+  # get_restaurant_for_bulk()
 
-  save_csv()
+  # save_csv()
 
 run_script()
